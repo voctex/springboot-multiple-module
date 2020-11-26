@@ -1,0 +1,10 @@
+server:
+  port: 7373
+  servlet:
+    context-path: /
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
+  tomcat:
+    uri-encoding: UTF-8
